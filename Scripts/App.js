@@ -34,9 +34,13 @@ sun.style.left = "25px";
 document.body.append(sun);
 
 //music
-var music = document.createElement("audio");
-music.src = "Music/AllIWantForChristmas.mp3"
-document.body.append(music);
+var au = new Audio("Music/AllIWantForChristmas.mp3");
+au.controls = true;
+au.style.position = "absolute";
+au.style.top = "10px";
+au.style.left = "150px";
+document.body.appendChild(au);
+
 //skis
 
 var skis = document.createElement("img");
