@@ -3,15 +3,10 @@
 //12/11/23
 
 
-
-/*Provide a description about what this program does here*/
-
-/*Write code to create and manipulate the elements on the index.html page.  
-The elements must come to gether to resemble an image.  Your Greeting Card
-must also include text, an image, and music. */
+/*This code creates a winter skiing themed greating card, styled completely in Javascript.*/
 
 
-//background
+//sets background color and gif
 
 var snowGif = document.createElement("img");
 snowGif.src = "Images/FallingSnowTransparent.gif";
@@ -22,7 +17,7 @@ document.body.append(snowGif);
 
 document.body.style.backgroundColor = "#cce6ff"
 
-//sun
+//makes sun
 var sun = document.createElement("div");
 sun.style.backgroundColor = "#fffd8c";
 sun.style.width = "100px";
@@ -33,7 +28,7 @@ sun.style.top = "25px";
 sun.style.left = "25px";
 document.body.append(sun);
 
-//music
+//makes music
 var au = new Audio("Music/AllIWantForChristmas.mp3");
 au.controls = true;
 au.style.position = "absolute";
@@ -41,7 +36,7 @@ au.style.top = "10px";
 au.style.left = "150px";
 document.body.appendChild(au);
 
-//skis
+//imports skis
 
 var skis = document.createElement("img");
 skis.src = "Images/BDogs-removebg-preview (1).png";
@@ -53,7 +48,7 @@ skis.style.left = "550px";
 skis.style.rotate = "90deg";
 document.body.append(skis);
 
-//foreground
+//creates foreground
 
 var foreground = document.createElement("div");
 foreground.style.backgroundColor = "white";
@@ -66,7 +61,7 @@ foreground.style.top = "403px";
 foreground.style.left = "0px";
 document.body.append(foreground);
 
-//Run sign
+// Makes the Ski Run sign
 
 var sign = document.createElement("div");
 sign.innerHTML = "HAPPY HOLIDAYS";
@@ -84,7 +79,7 @@ sign.style.top = "275px";
 sign.style.left = "200px";
 document.body.append(sign);
 
-//sign Post
+//makes first ski sign Post
 
 var signPost = document.createElement("div");
 signPost.style.backgroundColor = "brown";
@@ -97,7 +92,7 @@ signPost.style.top = "315px";
 signPost.style.left = "200px";
 document.body.append(signPost);
 
-//second sign post 
+//makes second ski sign post 
 
 var signPost2 = document.createElement("div");
 signPost2.style.backgroundColor = "brown";
@@ -110,7 +105,7 @@ signPost2.style.top = "315px";
 signPost2.style.left = "385px";
 document.body.append(signPost2);
 
-//stump1
+//makes the left most stump
 
 var stump1 = document.createElement("div");
 stump1.style.width = "50px";
@@ -121,7 +116,7 @@ stump1.style.top = "460px";
 stump1.style.left = "933px";
 document.body.append(stump1);
 
-//stump2
+//makes the middle stump
 
 var stump2 = document.createElement("div");
 stump2.style.width = "30px";
@@ -132,7 +127,7 @@ stump2.style.top = "375px";
 stump2.style.left = "1110px";
 document.body.append(stump2);
 
-//stump3
+//makes the rightmost stump
 
 var stump3 = document.createElement("div");
 stump3.style.width = "40px";
@@ -144,7 +139,7 @@ stump3.style.left = "1180px";
 document.body.append(stump3);
 
 
-//First Tree
+//Makes the rightmost Tree
 
 var tree1 = document.createElement("div");
 tree1.style.border = "transparent solid 75px";
@@ -157,7 +152,7 @@ tree1.style.top = "25px";
 tree1.style.left = "1125px";
 document.body.append(tree1);
 
-//Second tree
+//makes the middle tree
 
 var tree2 = document.createElement("div");
 tree2.style.border = "transparent solid 50px";
@@ -170,7 +165,7 @@ tree2.style.top = "125px";
 tree2.style.left = "1075px";
 document.body.append(tree2);
 
-//Thrid Tree
+//Makes the leftmost tree
 
 var tree3 = document.createElement("div");
 tree3.style.border = "transparent solid 87.5px";
@@ -183,7 +178,7 @@ tree3.style.top = "25px";
 tree3.style.left = "875px";
 document.body.append(tree3);
 
-//footPrint 1
+//Makes the  bottom foot print (footprints are in order from top to bottom)
 
 var footprint = document.createElement("div");
 footprint.style.backgroundColor = "#92b3af";
@@ -196,7 +191,7 @@ footprint.style.height = "70px";
 footprint.style.rotate = "30deg";
 document.body.append(footprint);
 
-//footprint 2
+//makes 2nd footprint 
 
 var footprint2 = document.createElement("div");
 footprint2.style.backgroundColor = "#92b3af";
@@ -209,7 +204,7 @@ footprint2.style.height = "70px";
 footprint2.style.rotate = "30deg";
 document.body.append(footprint2);
 
-//footprint 3
+//makes 3rd footprint 
 
 var footprint3 = document.createElement("div");
 footprint3.style.backgroundColor = "#92b3af";
@@ -222,7 +217,7 @@ footprint3.style.height = "70px";
 footprint3.style.rotate = "30deg";
 document.body.append(footprint3);
 
-//footprint 4
+//makes 4th footprint
 
 var footprint3 = document.createElement("div");
 footprint3.style.backgroundColor = "#92b3af";
@@ -235,7 +230,7 @@ footprint3.style.height = "70px";
 footprint3.style.rotate = "30deg";
 document.body.append(footprint3);
 
-//footprint 5
+//makes 5th footprint 
 
 var footprint3 = document.createElement("div");
 footprint3.style.backgroundColor = "#92b3af";
