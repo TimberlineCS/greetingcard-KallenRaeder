@@ -6,7 +6,7 @@
 /*This code creates a winter skiing themed greating card, styled completely in Javascript.*/
 
 
-//sets background color and gif
+//sets background color and .gif
 
 var snowGif = document.createElement("img");
 snowGif.src = "Images/FallingSnowTransparent.gif";

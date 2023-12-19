@@ -31,11 +31,11 @@ One of the new things that I learned in this project was how to get image files 
 
 Another new process that I had to learn was the styling, creating, and appending of audio. Luckily, I was able to pick up on it quickly and figure out how to use the .style commands to customize the audio feature. 
 
-After I about half of my elements created and styled, my project was starting to look messy and was very hard to navigate.  At that point I started to add descriptive comments and organize my code more, making it much easier to work on my project. 
+After I had about half of my elements created and styled, my project was starting to look messy and was very hard to navigate.  At that point I started to add descriptive comments and organize my code more, making it much easier to work on my project. 
 
 When I was first creating my skis I was just going to create two "div" features both with a rounded border to represent the skis on my greeting card. However, once i started styling my first ski, I realized that I wouldn't be to make a very detailed picture of the skis with "div" elements. After a bit of thinking I decided to get an image file of a pair of real Armada skis from the internet, and it ended up turning out pretty good. 
 
-This was a very oped-ended project, so I was able to be pretty creative and make a personalized greeting card that I am happy with. There we a few challenges along the way, but once I figured them out, I was able to figured out the rest of the project pretty smoothly. Overall, I think I learned some important JavaScript aspects and made nice looking project.
+This was a very oped-ended project, so I was able to be pretty creative and make a personalized greeting card that I am happy with. There were a few challenges along the way, but once I figured them out, I was able to complete the rest of the project pretty smoothly. Overall, I think I learned some important JavaScript aspects and made nice looking project.
 
 
 ## Extra Credit
